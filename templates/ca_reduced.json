@@ -1,0 +1,10 @@
+{
+    "url": &URL& ,
+    "caName": &CA_NAME& ,
+    "tlsCACerts": {
+      "pem": &CERT&
+    },
+    "httpOptions": {
+      "verify": false
+    }
+}

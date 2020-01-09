@@ -1,0 +1,8 @@
+{
+    "mspid": &MSPID&,
+    "peers":
+      &PEER_URLS&
+    ,
+    "certificateAuthorities":
+      &CA_URLS&
+}

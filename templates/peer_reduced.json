@@ -1,0 +1,10 @@
+{
+  "url": &URL& ,
+      "tlsCACerts": {
+        "pem": &CERT&
+      },
+      "grpcOptions": {
+        "ssl-target-name-override": &PEER_NAME&,
+        "hostnameOverride": &PEER_NAME&
+      }
+}

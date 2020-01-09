@@ -1,0 +1,29 @@
+{
+   "name":"fabcar-network",
+   "version":"1.0.0",
+   "license":"Apache-2.0",
+   "client":{
+      "tlsEnable":true,
+      "adminUser":"admin",
+      "adminPassword":"adminpw",
+      "enableAuthentication":false,
+      "organization": &LIST_ORG&,
+      "connection":{
+         "timeout":{
+            "peer":{
+               "endorser":"300"
+            },
+            "orderer":"300"
+         }
+      }
+   },
+   "channels":{
+      "mychannel":{
+         "orderers": &ORDERER_URLS&,
+         "peers": &PEER_URLS&
+      }
+   },
+   "organizations": &ORGS&,
+   "peers": &PEERS&,
+   "certificateAuthorities": &CAS&
+}
