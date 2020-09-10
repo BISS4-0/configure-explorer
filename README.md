@@ -22,6 +22,6 @@ Python packages can be installed via `pip3 install -r requirements.txt` .
 1. Make sure that your Hyperledger Fabric is running
 2. Copy the `connection.json` files of your Hyperledger Fabric (may be more then one depending on the number of Orgs) to `configure-explorer/configuration/fabric`
 3. Run `python3 configure-explorer.py`
-4. Copy the created `first-network.json` to your Hyperledger Explorer folder. To be more specific `bloclchain-explorer/example/net1/connection-profile`
+4. Copy the created `first-network.json` to your Hyperledger Explorer folder. To be more specific `blockchain-explorer/example/net1/connection-profile`
 5. Start Hyperledger Explorer (`docker-compose up -d`) and wait until it started
 6. Run `python3 get_explorer_ip_addr.py` to get the IP address of the Explorer Dashboard
